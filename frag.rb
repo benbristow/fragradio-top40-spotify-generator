@@ -4,8 +4,6 @@ require 'open-uri'
 require 'meta-spotify'
 require 'clipboard'
 
-#Don't edit below this line unless you know what you're doing.
-
 def getTopTracks
   #Create new array
   tracks = Array.new
