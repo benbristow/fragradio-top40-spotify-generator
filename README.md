@@ -9,9 +9,15 @@ Generates Spotify Playlists from Fragradio.com's Top 40 Requested Tracks
 How to use/install
 ----------------
 
+- Clone this repo and cd into it.
+
 - Make sure you have Ruby installed (2.1.5 recommended) & RubyGems. This is easiest with RVM (http://rvm.io)
 
 - Make sure you have Bundler installed
+
+```
+gem install bundler
+```
 
 - Install dependencies with Bundler
 
