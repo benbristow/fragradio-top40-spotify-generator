@@ -1,6 +1,8 @@
 FragRadio Top40 Spotify Playlist Generator
 ==========================================
 
+![FragRadio Logo](http://fragradio.com/images/logo.png)
+
 What it does
 -------------
 
