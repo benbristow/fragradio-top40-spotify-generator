@@ -6,7 +6,7 @@ FragRadio Top40 Spotify Playlist Generator
 What it does
 -------------
 
-Generates Spotify Playlists from Fragradio.com's Top 40 Requested Tracks
+Generates Spotify Playlists from Fragradio.com's Top 40 Requested Tracks.
 This could easily be modified for any station that uses SAM Broadcaster's built in web-request system.
 
 How to use/install
