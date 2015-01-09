@@ -35,5 +35,15 @@ def getSpotifyUris(tracks)
   return outputString
 end
 
-Clipboard.copy(getSpotifyUris(getTopTracks()))
+#Get Spotify URIs
+uris = getSpotifyUris(getTopTracks())
+
+#Copy to clipboard
+Clipboard.copy(uris)
 puts "Spotify Playlist copied to clipboard. Just open Spotify on your desktop and ctrl+v into a playlist!"
+
+#If specified file, also output to file
+if(ARGV[0] != nil)
+	File.write(ARGV[0], uris)
+	puts "Also written output to #{ARGV[0]}"
+end
